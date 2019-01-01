@@ -17,5 +17,5 @@ class Spaceship {
     }
   }
 
-  this.loadCrew()
+  loadCrew()
 }
