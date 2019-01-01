@@ -9,4 +9,5 @@ class Spaceship {
       this.phasersCharge = 'uncharged'
     }
 
+    
 }
