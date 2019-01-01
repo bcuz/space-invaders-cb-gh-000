@@ -9,7 +9,7 @@ class CrewMember {
       return 'had no effect'
     } else {
       // this shouldnt be difficult
-      this.currentShip.cloaked = true
+      this.currentShip.warpDrive = 'engaged'
       console.log(this.currentShip)
     }
   }
