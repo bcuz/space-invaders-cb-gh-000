@@ -5,7 +5,7 @@ class CrewMember {
     }
 
   engageWarpDrive() {
-    if (this.currentShip == 'Looking for a Rig') {
+    if (this.currentShip === 'Looking for a Rig') {
       return 'had no effect'
     }
     // else {
@@ -15,7 +15,7 @@ class CrewMember {
     // }
   }
   setsInvisibility() {
-    if (this.currentShip == 'Looking for a Rig') {
+    if (this.currentShip === 'Looking for a Rig') {
       return 'had no effect'
     } else {
       // this shouldnt be difficult
@@ -24,7 +24,7 @@ class CrewMember {
     }
   }
   chargePhasers() {
-    if (this.currentShip == 'Looking for a Rig') {
+    if (this.currentShip === 'Looking for a Rig') {
       return 'had no effect'
     }
     // else {
