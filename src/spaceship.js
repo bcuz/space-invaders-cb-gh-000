@@ -10,9 +10,9 @@ class Spaceship {
       this.warpDrive = 'disengaged'
       this.docked = crew.length > 0 ? false : true
       this.phasersCharge = 'uncharged'
+      crew.forEach(person => {person.currentShip = this})
     }
 
-    crew.forEach(person => {person.currentShip = this})
   // loadCrew() {
   //   if (crew.length > 0) {
   //     for (person of crew) {
