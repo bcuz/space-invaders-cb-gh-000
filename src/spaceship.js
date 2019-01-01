@@ -10,6 +10,8 @@ class Spaceship {
     }
 
   loadCrew() {
-    
+    if (crew.length > 0) {
+      
+    }
   }
 }
