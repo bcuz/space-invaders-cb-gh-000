@@ -6,7 +6,7 @@ describe('ship with a crew', () => {
     defender = new CrewMember('Defender');
     gunner = new CrewMember('Gunner');
     aluminumFalcon = new Spaceship('Millenium Falcon', [pilot, defender, gunner], 5, 4);
-    console.log(gunner.currentShip)
+    // console.log(gunner.currentShip)
   });
 
   describe('spaceship docked', () => {
