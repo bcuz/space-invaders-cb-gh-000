@@ -2,7 +2,8 @@ class Spaceship {
   constructor(name, crew, phasers, shields) {
       this.name = name;
       this.crew = crew;
-      
+
+      // knew i was close so i kept persevering. overthought it.
       crew.forEach(person => {person.currentShip = this})
       this.phasers = phasers;
       this.shields = shields;
