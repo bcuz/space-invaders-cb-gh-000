@@ -7,6 +7,10 @@ class CrewMember {
   engageWarpDrive() {
     if (this.currentShip == 'Looking for a Rig') {
       return 'had no effect'
+    } else {
+      // this shouldnt be difficult
+      this.currentShip.cloaked = true
+      console.log(this.currentShip)
     }
   }
   setsInvisibility() {
@@ -21,6 +25,10 @@ class CrewMember {
   chargePhasers() {
     if (this.currentShip == 'Looking for a Rig') {
       return 'had no effect'
+    } else {
+      // this shouldnt be difficult
+      this.currentShip.cloaked = true
+      console.log(this.currentShip)
     }
   }
 }
