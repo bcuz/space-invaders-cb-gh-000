@@ -9,12 +9,12 @@ class Spaceship {
       this.phasersCharge = 'uncharged'
     }
 
-  loadCrew() {
-    if (crew.length > 0) {
-      for (person of crew) {
-        person.currentShip = new Spaceship(this.name, crew, this.phasers, this.shields)
-      }
-    }
-  }
+  // loadCrew() {
+  //   if (crew.length > 0) {
+  //     for (person of crew) {
+  //       person.currentShip = new Spaceship(this.name, crew, this.phasers, this.shields)
+  //     }
+  //   }
+  // }
 
 }
