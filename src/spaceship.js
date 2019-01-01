@@ -2,6 +2,7 @@ class Spaceship {
   constructor(name, crew, phasers, shields) {
       this.name = name;
       // infinite loop
+      this.crew = crew;
       crew.forEach(person => {person.currentShip = this})
       this.phasers = phasers;
       this.shields = shields;
