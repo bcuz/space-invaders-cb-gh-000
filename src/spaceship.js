@@ -16,4 +16,6 @@ class Spaceship {
       }
     }
   }
+
+  this.loadCrew()
 }
