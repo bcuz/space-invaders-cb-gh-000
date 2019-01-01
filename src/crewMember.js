@@ -18,7 +18,7 @@ class CrewMember {
     if (this.currentShip == 'Looking for a Rig') {
       return 'had no effect'
     } else {
-      currentShip.cloaked = true
+      this.currentShip.cloaked = true
     }
   }
   chargePhasers() {
