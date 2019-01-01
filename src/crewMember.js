@@ -15,10 +15,11 @@ class CrewMember {
     }
   }
   setsInvisibility() {
-    if (this.currentShip == 'Looking for a Rig') {
-      return 'had no effect'
-    } else {
+    if (this.currentShip !== 'Looking for a Rig') {
       this.currentShip.cloaked = true
+      
+    } else {
+      return 'had no effect'
     }
   }
   chargePhasers() {
