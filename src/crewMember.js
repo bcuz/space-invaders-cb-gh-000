@@ -5,9 +5,9 @@ class CrewMember {
       this.currentShip = 'Looking for a Rig';
     }
 
-  set currentShip(newShip) {
-    
-  }
+  // set currentShip(newShip) {
+  //   this.currentShip =
+  // }
 
   engageWarpDrive() {
     if (this.currentShip == 'Looking for a Rig') {
