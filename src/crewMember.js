@@ -13,6 +13,8 @@ class CrewMember {
   setsInvisibility() {
     if (this.currentShip == 'Looking for a Rig') {
       return 'had no effect'
+    } else {
+      currentShip.cloaked = true
     }
   }
   chargePhasers() {
