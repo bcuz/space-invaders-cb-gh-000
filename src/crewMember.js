@@ -15,7 +15,7 @@ class CrewMember {
     } else {
       // this shouldnt be difficult
       this.currentShip.cloaked = true
-      console.log(this.currentShip.cloaked)
+      console.log(this.currentShip)
     }
   }
   chargePhasers() {
