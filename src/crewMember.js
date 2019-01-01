@@ -19,8 +19,8 @@ class CrewMember {
       return 'had no effect'
     } else {
       // this shouldnt be difficult
-      console.log(this.currentShip)
       this.currentShip.cloaked = true
+      console.log(this.currentShip.cloaked)
     }
   }
   chargePhasers() {
