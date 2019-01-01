@@ -8,6 +8,7 @@ class CrewMember {
     if (this.currentShip === 'Looking for a Rig') {
       return 'had no effect'
     }
+    
     // else {
     //   // this shouldnt be difficult
     //   this.currentShip.warpDrive = 'engaged'
@@ -19,8 +20,11 @@ class CrewMember {
       return 'had no effect'
     } else {
       // this shouldnt be difficult. something is not right here.
-      this.currentShip.cloaked = true
-      console.log(this.currentShip)
+      // this.currentShip.cloaked = !this.currentShip.cloaked
+      this.currentShip.cloaked = !this.currentShip.cloaked
+      // shouldnt this log twice ?
+      // console.log(this.position)
+      // console.log(this.currentShip.cloaked)
     }
   }
   chargePhasers() {
