@@ -3,7 +3,7 @@ class Spaceship {
       this.name = name;
       this.crew = crew;
 
-      // knew i was close so i kept persevering. overthought it.
+      // knew i was close so i kept persevering. overthinking.
       crew.forEach(person => {person.currentShip = this})
       this.phasers = phasers;
       this.shields = shields;
