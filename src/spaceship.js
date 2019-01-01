@@ -15,7 +15,6 @@ class Spaceship {
         person.currentShip = new Spaceship(this.name, crew, this.phasers, this.shields)
       }
     }
-  }
+  }()
 
-  loadCrew()
 }
