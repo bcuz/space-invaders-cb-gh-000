@@ -18,6 +18,7 @@ class CrewMember {
     if (this.currentShip == 'Looking for a Rig') {
       return 'had no effect'
     } else {
+      console.log(this)
       this.currentShip.cloaked = true
     }
   }
