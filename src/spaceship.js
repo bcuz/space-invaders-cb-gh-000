@@ -12,7 +12,7 @@ class Spaceship {
   loadCrew() {
     if (crew.length > 0) {
       for (person of crew) {
-        
+        person.
       }
     }
   }
