@@ -9,5 +9,7 @@ class Spaceship {
       this.phasersCharge = 'uncharged'
     }
 
+  loadCrew() {
     
+  }
 }
